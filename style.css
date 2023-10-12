@@ -1,0 +1,324 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,table,tr,th,ul,li,ol,dd,dl{ padding:0px; margin:0px auto; list-style:none;}
+body{background: #fff; font-size:13px; color:#003366;font-family: 'Poppins', sans-serif;font-weight:normal;}
+a{color: #003366;}
+p{line-height: 22px;}
+.margin-top1{margin-top: 15px;}
+a:hover{ text-decoration: none; color: #ff6600;}
+h1{ font-size: 42px; font-weight: bold;margin-bottom: 15px; }
+h2{ font-size:30px; font-weight: 600;}
+h3{}
+h4{ font-size: 28px; }
+h5{ font-size: 24px; }
+h6{font-size: 20px; font-weight: 600; margin-bottom: 12px;}
+/* header start */
+header{ background:#003366; width: 100%; float: left;border-bottom: 3px solid #ff6600;position: relative;}
+.header-line{background: #003366;padding-top:20px;}
+.header-line .row{ margin-bottom: 0px; }
+.header-box{ padding: 20px; width: 100%; float: left; }
+.mail-text{ font-size: 22px; font-weight: 600; }
+.white-darke1{ position: absolute;bottom: 0;left: 35px;right: 0; border-radius: 0px; padding: 0px;z-index: 1;}
+.navbar-nav.custom-menu{text-align: center;-webkit-font-smoothing:antialiased;}
+.navbar-nav.custom-menu li{ float: none; display: inline-block; }
+.navbar-nav.custom-menu li.active a{ color: #131313; }
+.navbar-nav.custom-menu li a{ font-size: 16px; font-weight: 600; letter-spacing: 0.5px; color: #fff; padding: 13px 10px 20px; -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;}
+.navbar-nav.custom-menu li:hover .sub-nav{opacity: 1; visibility:visible;}
+.sub-nav{-webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease; opacity: 0; visibility:hidden;padding:15px 0px; position: absolute;width: 305px; top: 50px;z-index:1; background:#1a042f; }
+nav ul.custom-menu li a:hover{ background: transparent; color: #fd6f11; }
+.navbar-nav.custom-menu li .sub-nav li{ display:block; text-align:left; padding:5px 10px; }
+.navbar-nav.custom-menu li .sub-nav li a{font-size:14px; font-weight:500;}
+.custom-slider-icon.carousel-indicators .active{background: #1a042f; border-color: #1a042f;}
+.header-social-icon{float: right;clear: both;padding-top: 10px;z-index: 10;position: relative;}
+.header-social-icon li{float: left;margin: 0 10px;}
+.header-social-icon li a{color:#fff;font-size: 20px;}
+.header-social-icon li a:hover{color:#ff6600;}
+.header-number{float: right;}
+.header-phone-icon{font-size: 26px;font-weight: bold; border-left: 1px solid rgba(255,255,255,0.15);line-height: 6px;color: #6c98e1;padding-left: 15px;padding-right: 13px;float: left;}
+.number-header-right small{font-size:13px;}
+.number-header-right{font-size: 18px;font-weight: bold;color: #fff;float: right;text-align: left;line-height: 18px;}
+/* header end */
+/* middle section start */
+.middle-section{ width: 100%; float: left; padding: 30px 0px; background: #f4f4f4; }
+.welcome-section{ background: #eee; }
+.welcome-section h1{ margin-bottom: 40px; margin-top: 20px; }
+.welcome-section h1:before{ background: #1a042f; position: relative;margin: auto;top: -10px; height: 4px; width: 150px; content: ''; display: block; }
+.welcome-section h1:after{ background: #1a042f; position: relative;margin: auto;bottom: -10px; height: 4px; width: 150px; content: ''; display: block; }
+.parallax {background-image: url(img-parallax.jpg);min-height: 440px;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.welcome-text{ font-size: 16px; font-weight: 500; }
+.home-read-btn{border-radius: 0px; color: #fff;background: #131313; font-size: 16px; font-weight: 600; padding: 10px 15px;}
+.home-read-btn:hover{background: #1a042f; color: #fff;     box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 3px 10px 0 rgba(0,0,0,.15);}
+.home-card{ border-radius: 0px;margin-bottom:25px;box-shadow:0 4px 8px 0 rgba(0,0,0,0.09),0 6px 20px 0 rgba(0,0,0,0.05); border:0px; cursor: pointer;}
+.home-card:hover{ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19); } 
+.home-card h5{ color: #1a042f; }
+.home-card p{font-size: 14px;}
+.service-boxes{width: 100%; float: left; margin-top: 28px;}
+.service-section h2{ margin-top: 20px; margin-bottom: 20px; }
+.service-section h2:before{ background: #1a042f; position: relative;margin: auto;top: -10px; height: 4px; width: 150px; content: ''; display: block; }
+.service-section h2:after{ background: #1a042f; position: relative;margin: auto;bottom: -10px; height: 4px; width: 150px; content: ''; display: block; }
+.client-logos{}
+.client-logos li{display: inline-block; margin: 15px 8px;}
+.choose-line:after{background: #1a042f; position: relative;margin: auto;right: -40px; height: 4px; width: 150px; content: ''; display: block;}
+.why-choose-section{background: #f0f0f0;}
+.choose-right{ border:2px solid #1a042f; margin-left: 25px; margin-top: 25px; padding-bottom: 25px;}
+.choose-right img{margin-left: -25px; margin-top: -25px;}
+.choose-box p{ font-size: 14px; font-weight: 500; margin-top: 20px; }
+.testimonial-section{background: #003366;}
+.testimonial-section h2:after, .testimonial-section h2:before{background: #a364db;}
+.testimonial-boxes h2{color: #fff;}
+.testimonial-slider{color:#fff; margin-top: 30px;float: left;width: 100%;margin-bottom: 10px; }
+.testimonial-name:before{background: #fff; width: 30px; height: 1px; content: ''; display: block; position: relative;top: 12px;left: -45px; margin: auto;}
+.testimonial-name:after{background: #fff; width: 30px; height: 1px; content: ''; display: block; position: relative;bottom: 12px;right: -45px; margin: auto;}
+.middle-top-tabs{background: #003366;width: 100%;float: left;padding: 10px 0;}
+.our-client-title{font-size: 20px;font-weight: bold;color: #000;margin-bottom: 2px;}
+.our-client-title span{color:#ff6600;}
+.client-sub-title{font-size: 16px;color: #5d5d5d;font-weight: 500;font-style: italic;}
+.experience-btn{background: #003366;font-size: 16px;color: #fff;border-radius: 0px;padding: 12px;margin-top: 10px;}
+.experience-btn:hover{background:#ff6600; color: #fff;}
+.white-color{color:#fff;}
+.opacity-6{opacity: 0.6;}
+.loan-home-tabs{width: 14%;display: inline-block;}
+.loan-tab-home{padding: 0px 65px;}
+.loan-home-tabs a{color: #fff; padding: 20px 0; display: block;}
+.loan-home-tabs span{width: 100%;display: block;margin-bottom: 6px;}
+.custom-right-border.loan-home-tabs{border-left:2px solid #fff;}
+.slider-heading{text-align: left;left:5%;top:2%;}
+.slider-sub-font{font-size:21.97px;color: #000; width: 100%;float: left;margin-top: 10px;font-weight: 600;}
+.slider-heading h3{color:#002e5b;font-size:54.24px;font-weight: bold;}
+.slider-heading h3 span.black-light-color{color:#222222;}
+.slider-read-btn{font-size: 23.48px;font-weight: 300;}
+.our-customer-boxes{float: left;width: 100%;padding: 0 35px;}
+.our-customer-boxes:before{content: '';display: block;background: url(left-comma.png);background-repeat: no-repeat;width: 20px;height: 17px;}
+.our-customer-boxes:after{content: '';display: block;margin-top: -14px;background: url(right-comma.png);background-repeat: no-repeat;width: 21px;height: 17px;float: right;}
+.border-top-customer{height: 2px;background: #fff;width: 92%;float: right;margin-top: -3px;}
+.border-bottom-customer{margin-top:0;margin-bottom:-3px;float: left; }
+.customer-img{width: 115px;float: left; padding: 15px 0;}
+.customer-img img{max-width: 100%;width: auto !important;margin: auto;}
+.customer-name{font-size:12.85px;font-weight: bold;color: #fff;margin-top: 6px;}
+.customer-content{font-size: 12px;font-weight: normal;color: #fff;}
+.customer-content{padding: 15px 15px 15px 0;text-align: left;line-height: 22px;font-weight: normal;}
+.owl-carousel .owl-nav.disabled{display: block !important;}
+.testimonial-slider .owl-prev {float: left;margin-left: -85px;margin-top: -85px;}
+.testimonial-slider .owl-next {float: right;margin-right: -85px;margin-top: -85px;}
+/* middle section end */
+
+/* footer start */
+footer{ background: #f8f8f8; padding: 38px 0px 25px; width: 100%; float: left;box-shadow: 0 2px 7px rgba(0,0,0,0.5) inset;}
+footer hr{ width: 100%; float: left;background: #ccc; }
+.footer-links h2{ margin-bottom: 30px;border-bottom: 1px solid #cccccc;padding-bottom: 25px;font-size:20px;}
+.footer-links ul li{padding: 2.5px 0}
+.footer-links ul li a{font-size: 13px; font-weight: 300;color: #003366;}
+.footer-links ul li a:hover{color:#ff6600;}
+.footer-links.custom-footer-links ul li{padding-bottom: 15px;}
+.footer-social-media{ float: right; }
+.footer-social-media li{display: inline-block; padding: 0px 2px;}
+.footer-social-media li:last-child{padding-right: 0;}
+.footer-social-media li a{font-size: 20px;width: 32px;height: 32px;background: #003366;color: #fff;display: block;text-align: center;border-radius: 50%; line-height: 32px;}
+.footer-social-media li a:hover{background: #ff6600;}
+.copyright{float: left;}
+.footer-inner{ width: 100%; float: left; padding-bottom: 30px; }
+.footer-bottom{width: 100%; float: left;clear: both; padding: 10px 0px 0px;}
+.open-sans-font{font-family: 'Open Sans', sans-serif;}
+.copyright a{font-weight:700;}
+/* footer end */
+
+.inner-page-tabs-left{}
+.inner-page-tabs-left li a{display: block;font-size:15.8px;padding:10px 15px;font-weight:600;line-height: 17px;}
+.inner-page-tabs-left li a:hover, .inner-page-tabs-left li.active a{background: #ff8533;color:#002e5b;}
+.about-right-img-box{position: relative; width: 100%;float: left;}
+.about-right-img-box img{width: 100%;}
+.about-right-title{position: absolute;font-size:27px;font-weight: 600;color:#003366;text-transform: uppercase;top: 140px;line-height: 32px;padding-left: 30px;}
+.about-loan-feature{padding-left: 30px;padding-top: 15px;padding-bottom: 15px;width: 100%;float: left;}
+.about-loan-feature li{font-size: 16px;font-weight: 500;color: #424242;padding-left: 30px;background: url(../images/list-cricle-icon.png);background-repeat: no-repeat;background-position: 2px 6px;}
+.why-title{padding-left: 30px;font-size:20px;color:#003366;margin: 15px 0;float: left;}
+.inner-page-tabs-right{width: 100%;float: left;background: #f5f5f5;padding-bottom: 6px;}
+.why-choose-documents{background:rgba(0,51,102, 0.12);width: 100%;float: left;padding-left: 110px;padding-top: 15px;padding-bottom: 15px;}
+.why-choose-documents li{font-size:16px;color:#003366; font-weight:500;}
+.our-money-your{background: #003366;width: 100%;float: left;padding: 8px 35px;}
+.our-money-your h4{font-size: 16px;color: #fff;font-weight: 600;display: inline;padding-top: 14px;float: left;}
+.get-loan{background: #fff;color: #003366;font-size: 16px;font-weight: bold;border-radius: 0;padding: 10px 15px;margin-left: 30px;float:right;}
+.get-loan:hover{background: #ff6600;color: #fff;}
+.card-header-custom{background: #003366;border-radius: 0 !important;padding: 0;border: 0;}
+.card-header-custom a {width:100%;float:left;}
+.card-header-custom a .documentation-title{color: #fff;font-size: 16px;font-weight: bold;padding: 26px 20px;float:left;}
+.card-header-custom a .document-icon-left{border:1px solid #003366;float: left;background: #fff;width: 92px;padding: 10px;text-align: center;}
+.card-header-custom a:after{content: '';display: block;background: url(collaps-down-arrow.png);width: 17px;height: 11px;float: right;    margin-top: 30px;margin-right: 25px;}
+.custom-accordion{float: left;width:100%;}
+.custom-card-block{padding: 0;}
+.custom-card{border: 0;border-radius: 0;margin-bottom: 4px;background: transparent;}
+.custom-card-block p{font-size:16px;color:#424242;font-weight:500;}
+.padding-all-over{padding:20px 35px 0;}
+.car-loan-banner-title{top:15px;}
+.business-loan-title{bottom: 10px;top: initial;}
+.venture-capital-title{top:57px;color:#fff;}
+.career-box{}
+.career-section{padding:25px 35px;background: rgba(230,233,230,0.4);}
+.career-box h1{font-size: 30px;border-bottom: 2px solid #003366;padding-bottom: 5px;margin-bottom: 20px;}
+.hr-contact{font-size:30px;font-weight: bold;border-bottom: 2px solid #003366;padding-bottom: 5px;margin-bottom: 20px;}
+.investor-relation-tabs li img{margin-right: 8px;}
+.investor-relation-tabs li a{width:100%;float: left;}
+.investor-document-boxes{padding-left: 110px;padding-right: 95px;}
+.investor-document-boxes p{color: #003366}
+.margin-top-directors{margin-top: 23px;}
+.background-remove{background: transparent;}
+.trading-box{}
+.trading-box h6.tradin-title{font-size:16px;font-weight:bold;color: #003366;border-bottom: 2px solid #003366;float: left;padding-bottom:6px;}
+.trading-left{width:50%;float: left;font-size: 16px;}
+.trading-left h6{font-size:16px;font-weight:bold;margin-bottom: 3px;}
+.tradin-title-box{width: 100%;float: left;}
+.about-right-boxes{padding: 30px 30px 20px;}
+.about-right-boxes p{font-size:16px;line-height: 30px;}
+.about-vision-title{color: #003366;border-bottom:2px solid #003366;font-weight:bold;padding-bottom: 3px;margin: 0 30px;font-size:30px;}
+.vision-first-box{background: rgba(0,0,0,0.05);margin: 4px 6px 2px 0;padding: 25px 25px 5px 37px;}
+.vision-first-box p{line-height: 20px;padding-top: 22px;margin-bottom: 0;min-height: 125px;}
+.vision-first-box-padding{padding-left:30px;padding-right: 30px;}
+.vision-first-box-margin{margin-right:0;}
+.padding-left{padding-left: 44px;}
+.equal-img-text{float: left;}
+.director-boxes{padding: 10px;margin-right:3px;margin-left:3px;background: rgba(0,51,102,0.2); min-height: 300px;}
+.director-boxes img{padding: 10px 0;-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */ filter: grayscale(100%);}
+.director-boxes h6{font-size:16.48px;font-weight: bold;margin-bottom: 0;}
+.director-boxes p{font-size: 12px;color:#424242;padding: 0; min-height: auto;}
+.director-boxes .view-profile-btn{background: #003366;padding: 6px 15px;display: inline-block;margin-top: 5px;font-size:14px;font-weight:600;color:#fff;}
+.director-boxes .view-profile-btn:hover{background: #000;}
+.inner-page-tabs-right-about{background: rgba(230,233,230,0.40);padding: 40px 5px 8px 0;}
+.corporate-social-box{line-height: 20px;padding: 18px 32px 5px;}
+.corporate-social-box p{text-align: justify;font-weight: 500;}
+.width-adjest{width:100%;}
+.corporate-titles-margin{margin-left: 0;margin-right: 0;margin-bottom: 15px;}
+.download-btn{float: right;background: #fff;color: #003366;font-weight: bold;font-size: 14px;padding: 6px 10px;}
+.management-download-section{background: #003366;padding: 5px 15px;width: 100%;float: left;}
+.management-download-section p{color: #fff;margin-bottom: 0;padding-top: 5px;float: left}
+.board-detail-box{padding: 10px 15px;}
+.board-detail-box h6{font-size:16px;font-weight: bold;color:#fff; margin-bottom: 0;}
+.detail-board-boxes{width: 100%;float: left;margin-bottom: 18px;}
+.detail-board-boxes li{background: #dce2e6;border-bottom: 1px solid #fff;width: 100%;float: left;}
+.detail-table-left{width: 30%;float: left;padding: 10px 15px;color: #003366;font-weight: bold;}
+.detail-table-right{width: 68%;float: left;color: #003366;padding: 10px 15px;font-weight: 500;border-left: 6px solid #f5f6f5;}
+.detail-board-boxes li.dark-color{background:#cacbca;}
+.working-capital-flow-img{margin: auto;display: block;margin-bottom: 40px;margin-top: 10px;}
+.about-loan-feature ul{width: 50%;float: left;padding-right: 85px;}
+.board-detail-box5{}
+.detail-board-boxes3{}
+.home-sub-menu{position: absolute;top: 55px;width: 225px;z-index: 30;background: #003366;}
+.navbar-nav.custom-menu li .home-sub-menu li{ border-bottom: 1px solid #fff;display: none;padding: 10px; }
+.navbar-nav.custom-menu li .home-sub-menu li:last-child{border: 0;}
+.navbar-nav.custom-menu li .home-sub-menu li a{padding: 0;}
+.navbar-nav.custom-menu li:hover .home-sub-menu li{display:block;}
+button.navbar-toggler.hidden-sm-up.navbar-toggler-right{display: none;}
+.after-three-boxes{width: 100%;float: left;padding-bottom: 20px;}
+.second-slider-caption{padding-left: 25px;}
+.second-slider-caption li{list-style: square;font-size:18px;}
+.carousel-control-custom{top: 50%;position: absolute;transform: translate(0%, -50%);-webkit-transform: translate(0%, -50%);}
+.carousel-control-custom .fa{font-size: 30px;font-weight: bold;background: #003366;padding: 10px 15px 13px;line-height: 20px;color: #fff;}
+.carousel-control-custom .fa:hover{background: #ff6600;}
+.carousel-control-custom.left{left: 15px;}
+.carousel-control-custom.right{right: 15px;}
+.financial-month-title{font-size: 22px;margin-bottom: 10px;margin-left: -20px;}
+.modal-title{float: left;}
+.responsive-img{height:90px; width:90px;border-radius: 4em;}
+.fi{color:white;margin-left:100px;margin-top:-50px;font-size:25px;}
+.img-fluid{width:100%;}
+.customer-content{margin-left:200px;margin-top:20px;font-size:20px;}
+.img-responsive1{height:40px;width:40px;}
+.about-right-title car-loan-banner-title{color:white;}
+@media only screen and (max-width: 1100px){
+.director-boxes p{min-height:50px;}
+.trading-left{word-break: break-word;padding-right: 15px;}
+.about-right-title{top:90px;}
+.vision-first-box-padding{padding-left:25px;padding-right:25px;}
+    .loan-home-tabs a{font-size: 11px;}
+    .loan-home-tabs{width:13%;}
+    .loan-tab-home{padding: 0;}
+    .about-loan-feature ul{padding-right:20px;}
+    .white-darke1 {position: relative;left: 0; }
+    .slider-heading{left:8%;}
+}
+
+@media only screen and (max-width: 999px){
+.footer-links h2{font-size:15px;}
+.vision-first-box-padding{padding-left:20px;padding-right:20px;}
+.navbar-nav.custom-menu li a{padding:13px 0px 20px;}
+.second-slider-caption li{font-size:14px;}
+.detail-table-right{width:68%;}
+.about-right-title{ top:50px;font-size: 20px;line-height: 26px;}
+.director-boxes{padding: 7px;}
+.director-boxes h6{font-size:14px;}
+.slider-heading h3{font-size: 36px;}
+.our-customer-boxes{padding: 0 8px;}
+}
+
+@media only screen and (max-width: 767px){
+    .footer-links h2{margin-top: 30px;}
+    .copyright{text-align: center;float: none}
+    .footer-social-media li a{line-height: 36px;}
+    .footer-social-media{float: none;text-align: center;width:100%;margin-top: 20px;}
+    .client-logos li{width: 25%;}
+    .loan-home-tabs{width: 49%;}
+    .custom-right-border.loan-home-tabs:nth-child(3), .custom-right-border.loan-home-tabs:nth-child(5), .custom-right-border.loan-home-tabs:nth-child(7){border-left:0;}
+    .second-slider-caption li{font-size:10px;}
+    .slider-sub-font{font-size: 12px;font-weight: 500;}
+    .slider-heading h3{font-size: 18px;font-weight: 500;}
+    .slider-read-btn{font-size: 12px;padding:6px;}
+    .carousel-control-custom .fa{padding: 5px 10px 7px;font-size: 20px;}
+    .testimonial-slider .owl-next{margin-right: 0;position: absolute;right:0;}
+    .testimonial-slider .owl-prev{margin-left: 0;position: absolute;left:0;}
+    .our-customer-boxes{padding: 0 60px;}
+    .mail-text{margin-top:10px;}
+    .slider-heading{left:10%;}
+    .mail-text br, .header-number{display: none;}
+    .header-box{padding: 0 0 25px;}
+    .logo{text-align: center;}
+    .header-social-icon{float: left}
+    button.navbar-toggler.hidden-sm-up.navbar-toggler-right{display: block;position: absolute;top: -60px;z-index: 1;border: 1px solid #fff;right: 20px;color:#fff;}
+    .navbar-nav.custom-menu li{display: block;text-align: left;padding-left: 25px;}
+    .navbar-nav.custom-menu{margin-top: 0;}
+    .navbar-nav.custom-menu li a{padding: 8px 0;}
+    .home-sub-menu{position: initial;width:100%;}
+    .navbar-nav.custom-menu li .home-sub-menu li{border: 0;}
+    .middle-top-tabs{padding-top: 20px;}
+    .our-client-section .experience-btn{padding:10px 20px;}
+    .about-right-title{position: initial;padding-left: 25px;margin-top: 15px;color: #003366;}
+    .about-right-title br{display: none;}
+    .about-loan-feature ul{width:100%;}
+    .card-header-custom a .documentation-title{padding: 20px 10px;}
+    .card-header-custom a .document-icon-left{width: 50px;}
+    .card-header-custom a .document-icon-left img{max-width: 100%;}
+    .card-header-custom a:after{margin-right: 15px;margin-top:25px;}
+    .why-choose-documents{padding-left: 20px;padding-right: 20px;}
+    .our-money-your{padding: 8px 20px;}
+    .get-loan{float: left;margin-left: 0;margin-top: 10px;}
+    .inner-page-tabs-left{margin-bottom: 20px;float: left;width:100%;}
+    .padding-all-over{padding: 20px 20px 0;}
+    .about-right-boxes{padding: 20px;}
+    .director-boxes{text-align: center;}
+    .director-boxes p{min-height: 25px;}
+    .corporate-social-box{padding: 18px 20px 5px;}
+    .about-vision-title{font-size: 22px;}
+    .detail-table-right{width: 100%;border-left: 0;border-top: 1px solid #fff;}
+}
+
+@media only screen and (max-width: 479px){
+    .slider-heading{top:0;padding-top: 5px;left:12%;}
+    .slider-sub-font br{display: none}
+    .slider-heading h3{font-size:14px;}
+    .carousel-control-custom.left{left:7px;}
+    .carousel-control-custom.right{right:7px;}
+    .slider-sub-font{font-size:10px;margin-top:3px;line-height: 12px;}
+    .experience-btn{font-size: 12px;margin-top: 3px;padding:4px 6px; }
+    .client-logos li{width: 40%;}
+    .our-customer-boxes{padding: 0 30px;}
+    .customer-img{float: none;display: inline-block;}
+    .customer-content{padding: 0px 5px 15px 5px;text-align: center;}
+    .border-top-customer{width:88%;}
+    .testimonial-slider .owl-next, .testimonial-slider .owl-prev{margin-top: -130px;}
+}
+
